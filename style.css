@@ -760,6 +760,7 @@ body {
     grid-template-areas: 'titulo-porque'
     'parrafo1p'
     'parrafo2p';
+    height: 750px;
   }
   .titulo{
     grid-area: titulo-porque;
@@ -774,6 +775,26 @@ body {
   }
   .contenedor-parrafo1{
     grid-area: parrafo2p;
+    justify-self: center;
+    align-self: center;
+  }
+  .text-bg .boton{
+    width: 50%;
+    margin-top: 10px;
+    font-size: 1em;
+  }
+  .whatsapp{
+    left: 90%;
+  }
+  .tarjetas{
+    height:650px ;
+  }
+  .tarjeta-2{
+    height: 650px;
+  }
+  .Copyright p {
+    font-size: 0.7em;
+    margin: 0;
     justify-self: center;
     align-self: center;
   }
